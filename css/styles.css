@@ -22,6 +22,10 @@
   display: none;
 }
 
+#arguments-hidden {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc
@@ -73,5 +77,14 @@
 }
 
 .clickable5:hover {
+  text-decoration: underline;
+}
+
+.clickable6 {
+  cursor: pointer;
+  color: #4a2997
+}
+
+.clickable6:hover {
   text-decoration: underline;
 }
