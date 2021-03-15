@@ -14,6 +14,10 @@
   display: none;
 }
 
+#functions-hidden {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc
@@ -47,5 +51,14 @@
 }
 
 .clickable3:hover {
+  text-decoration: underline;
+}
+
+.clickable4 {
+  cursor: pointer;
+  color: #cc0700
+}
+
+.clickable4:hover {
   text-decoration: underline;
 }
