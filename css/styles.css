@@ -14,3 +14,12 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.clickable1 {
+  cursor: pointer;
+  color: #00cc1b
+}
+
+.clickable1:hover {
+  text-decoration: underline;
+}
