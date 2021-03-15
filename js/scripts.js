@@ -33,5 +33,10 @@ $(document).ready(function() {
     $("#arguments-showing").toggle();
     $("#arguments-hidden").toggle();
   });
+
+  $(".clickable7").click(function() {
+    $("#parameters-showing").toggle();
+    $("#parameters-hidden").toggle();
+  });
 });
 
