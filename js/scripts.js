@@ -18,5 +18,10 @@ $(document).ready(function() {
     $("#naming-showing").toggle();
     $("#naming-hidden").toggle();
   });
+
+  $(".clickable4").click(function() {
+    $("#function-showing").toggle();
+    $("function-hidden").toggle();
+  });
 });
 
