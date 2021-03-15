@@ -8,4 +8,10 @@ $(document).ready(function() {
     $("#operators-showing").toggle();
     $("#operators-hidden").toggle();
   });
+
+  $(".clickable2").click(function() {
+    $("#varibles-showing").toggle();
+    $("#varibles-hidden").toggle();
+  });
 });
+
