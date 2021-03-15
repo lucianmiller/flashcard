@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   $(".clickable4").click(function() {
     $("#function-showing").toggle();
-    $("function-hidden").toggle();
+    $("#function-hidden").toggle();
   });
 });
 
