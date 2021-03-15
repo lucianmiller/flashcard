@@ -10,8 +10,8 @@ $(document).ready(function() {
   });
 
   $(".clickable2").click(function() {
-    $("#varibles-showing").toggle();
-    $("#varibles-hidden").toggle();
+    $("#variables-showing").toggle();
+    $("#variables-hidden").toggle();
   });
 
   $(".clickable3").click(function() {
@@ -27,6 +27,11 @@ $(document).ready(function() {
   $(".clickable5").click(function() {
     $("#method-showing").toggle();
     $("#method-hidden").toggle();
+  });
+
+  $(".clickable6").click(function() {
+    $("#arguments-showing").toggle();
+    $("#arguments-hidden").toggle();
   });
 });
 
