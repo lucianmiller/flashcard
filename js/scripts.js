@@ -23,5 +23,10 @@ $(document).ready(function() {
     $("#function-showing").toggle();
     $("#function-hidden").toggle();
   });
+
+  $(".clickable5").click(function() {
+    $("#method-showing").toggle();
+    $("#method-hidden").toggle();
+  });
 });
 
