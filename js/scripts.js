@@ -43,5 +43,10 @@ $(document).ready(function() {
     $("#return-showing").toggle();
     $("#return-hidden").toggle();
   });
+
+  $(".clickable9").click(function() {
+    $("#chaining-showing").toggle();
+    $("#chaining-hidden").toggle();
+  });
 });
 

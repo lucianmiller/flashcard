@@ -118,3 +118,12 @@
 .clickable8:hover {
   text-decoration: underline;
 }
+
+.clickable9 {
+  cursor: pointer;
+  color: #978c29
+}
+
+.clickable9:hover {
+  text-decoration: underline;
+}
