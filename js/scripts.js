@@ -88,5 +88,10 @@ $(document).ready(function() {
     $("#jquery-showing").toggle();
     $("#jquery-hidden").toggle();
   });
+
+  $(".clickable18").click(function() {
+    $("#attributes-showing").toggle();
+    $("#attributes-hidden").toggle();
+  });
 });
 
