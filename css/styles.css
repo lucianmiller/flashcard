@@ -62,6 +62,9 @@
   display: none;
 }
 
+#comment-hidden {
+  display: none;
+}
 
 .clickable {
   cursor: pointer;
@@ -204,5 +207,14 @@
 }
 
 .clickable15:hover {
+  text-decoration: underline;
+}
+
+.clickable16 {
+  cursor: pointer;
+  color: #bb0b72
+}
+
+.clickable16:hover {
   text-decoration: underline;
 }
