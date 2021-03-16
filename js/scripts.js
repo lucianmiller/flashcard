@@ -78,5 +78,10 @@ $(document).ready(function() {
     $("#alert-showing").toggle();
     $("#alert-hidden").toggle();
   });
+
+  $(".clickable16").click(function() {
+    $("#comment-showing").toggle();
+    $("#comment-hidden").toggle();
+  });
 });
 
