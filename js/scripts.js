@@ -73,5 +73,10 @@ $(document).ready(function() {
     $("#null-showing").toggle();
     $("#null-hidden").toggle();
   });
+
+  $(".clickable15").click(function() {
+    $("#alert-showing").toggle();
+    $("#alert-hidden").toggle();
+  });
 });
 
