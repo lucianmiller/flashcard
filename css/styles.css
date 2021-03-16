@@ -50,10 +50,6 @@
   display: none;
 }
 
-#undefined-hidden {
-  display: none;
-}
-
 #nan-hidden {
   display: none;
 }
@@ -61,6 +57,11 @@
 #null-hidden {
   display: none;
 }
+
+#alert-hidden {
+  display: none;
+}
+
 
 .clickable {
   cursor: pointer;
@@ -194,5 +195,14 @@
 }
 
 .clickable14:hover {
+  text-decoration: underline;
+}
+
+.clickable15 {
+  cursor: pointer;
+  color: #0b89bb
+}
+
+.clickable15:hover {
   text-decoration: underline;
 }
