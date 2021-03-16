@@ -53,5 +53,10 @@ $(document).ready(function() {
     $("#strings-showing").toggle();
     $("#stings-hidden").toggle();
   });
+
+  $(".clickable11").click(function() {
+    $("#boolean-showing").toggle();
+    $("#boolean-hidden").toggle();
+  });
 });
 
