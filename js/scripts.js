@@ -58,5 +58,10 @@ $(document).ready(function() {
     $("#boolean-showing").toggle();
     $("#boolean-hidden").toggle();
   });
+
+  $(".clickable12").click(function() {
+    $("#undefined-showing").toggle();
+    $("#undefined-hidden").toggle();
+  });
 });
 
