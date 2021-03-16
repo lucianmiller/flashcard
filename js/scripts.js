@@ -83,5 +83,10 @@ $(document).ready(function() {
     $("#comment-showing").toggle();
     $("#comment-hidden").toggle();
   });
+
+  $(".clickable17").click(function() {
+    $("#jquery-showing").toggle();
+    $("#jquery-hidden").toggle();
+  });
 });
 
