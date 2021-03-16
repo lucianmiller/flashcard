@@ -48,5 +48,10 @@ $(document).ready(function() {
     $("#chaining-showing").toggle();
     $("#chaining-hidden").toggle();
   });
+
+  $(".clickable10").click(function() {
+    $("#strings-showing").toggle();
+    $("#stings-hidden").toggle();
+  });
 });
 
