@@ -63,5 +63,10 @@ $(document).ready(function() {
     $("#undefined-showing").toggle();
     $("#undefined-hidden").toggle();
   });
+
+  $(".clickable13").click(function() {
+    $("#nan-showing").toggle();
+    $("#nan-hidden").toggle();
+  });
 });
 
