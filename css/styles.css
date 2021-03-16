@@ -38,6 +38,11 @@
   display: none;
 }
 
+#stings-hidden {
+  display: none;
+}
+
+
 .clickable {
   cursor: pointer;
   color: #0088cc
@@ -125,5 +130,14 @@
 }
 
 .clickable9:hover {
+  text-decoration: underline;
+}
+
+.clickable10 {
+  cursor: pointer;
+  color: #302997
+}
+
+.clickable10:hover {
   text-decoration: underline;
 }
