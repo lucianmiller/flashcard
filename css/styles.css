@@ -66,6 +66,10 @@
   display: none;
 }
 
+#jquery-hidden {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc
@@ -216,5 +220,14 @@
 }
 
 .clickable16:hover {
+  text-decoration: underline;
+}
+
+.clickable17 {
+  cursor: pointer;
+  color: #65c041
+}
+
+.clickable17:hover {
   text-decoration: underline;
 }
